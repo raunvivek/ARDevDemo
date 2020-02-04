@@ -117,6 +117,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Test_4jan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Test_Accenture__c</field>
         <readable>true</readable>
     </fieldPermissions>
