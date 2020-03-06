@@ -144,6 +144,40 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Test_Picklist07feb__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Picklist07feb</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Q1</fullName>
+                    <default>false</default>
+                    <label>Q1</label>
+                </value>
+                <value>
+                    <fullName>Q2</fullName>
+                    <default>false</default>
+                    <label>Q2</label>
+                </value>
+                <value>
+                    <fullName>Q3</fullName>
+                    <default>false</default>
+                    <label>Q3</label>
+                </value>
+                <value>
+                    <fullName>Q4</fullName>
+                    <default>false</default>
+                    <label>Q4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>UpsellOpportunity__c</fullName>
         <externalId>false</externalId>
         <label>Upsell Opportunity</label>
