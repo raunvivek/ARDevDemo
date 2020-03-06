@@ -3,6 +3,8 @@
     <version>46.0</version>
     <types>
         <members>HelloWorld</members>
+        <members>TemperatureConverter</members>
+        <members>TemperatureConverterTest</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -57,6 +59,7 @@
         <members>Account.Test_4jan__c</members>
         <members>Account.Test_Accenture__c</members>
         <members>Account.Test_Account__c</members>
+        <members>Account.Test_Picklist07feb__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
@@ -136,6 +139,8 @@
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
         <members>Contact-Contact Layout</members>
+        <members>ContactPointEmail-Contact Point Email Layout</members>
+        <members>ContactPointPhone-Contact Point Phone Layout</members>
         <members>ContactPointTypeConsent-Contact Point Type Consent Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
