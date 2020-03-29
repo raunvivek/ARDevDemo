@@ -166,6 +166,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Energy_Audit__c.Audit_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Energy_Audit__c.Type_of_Installation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.CurrentGenerators__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -269,6 +279,9 @@
         <layout>DataUsePurpose-Data Use Purpose Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Energy_Audit__c-Energy Audit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -319,5 +332,9 @@
     <layoutAssignments>
         <layout>User-User Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>Energy_Audit__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Force.com - App Subscription</userLicense>
 </Profile>

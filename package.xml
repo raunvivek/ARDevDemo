@@ -67,6 +67,11 @@
         <members>Case.SLAViolation__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
+        <members>Energy_Audit__c.Account__c</members>
+        <members>Energy_Audit__c.Annual_Energy_Usage_kWh__c</members>
+        <members>Energy_Audit__c.Audit_Notes__c</members>
+        <members>Energy_Audit__c.Average_Annual_Electric_Cost__c</members>
+        <members>Energy_Audit__c.Type_of_Installation__c</members>
         <members>Lead.CurrentGenerators__c</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.Primary__c</members>
@@ -78,6 +83,14 @@
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Energy_Audit__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Energy_Audit__c</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
@@ -149,6 +162,7 @@
         <members>DataUsePurpose-Data Use Purpose Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
+        <members>Energy_Audit__c-Energy Audit Layout</members>
         <members>Event-Event Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
@@ -183,6 +197,7 @@
     </types>
     <types>
         <members>Account.AllAccounts</members>
+        <members>Account.Channel_Customers</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
@@ -210,6 +225,7 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>Energy_Audit__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
@@ -219,6 +235,7 @@
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
         <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.High_Probability_Opportunities</members>
         <members>Opportunity.MyOpportunities</members>
         <members>Opportunity.NewLastWeek</members>
         <members>Opportunity.NewThisWeek</members>
