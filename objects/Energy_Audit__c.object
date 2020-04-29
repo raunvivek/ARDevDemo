@@ -142,6 +142,15 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Energy_Audit_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Account__c</fields>
+        <fields>Annual_Energy_Usage_kWh__c</fields>
+        <fields>Average_Annual_Electric_Cost__c</fields>
+        <fields>Type_of_Installation__c</fields>
+        <label>Energy Audit Compact Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -240,4 +249,36 @@
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Audit_Guidelines</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Audit Guidelines</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>https://ap16.salesforce.com/sfc/p/2w000002BYNz/a/2w0000008Sb5/33w1QGWoc4xya3Atpo2RirugNeeVYj9zkfHS22qqvUc</url>
+    </webLinks>
+    <webLinks>
+        <fullName>US_Average_Energy_Costs</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>US Average Energy Costs</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.eia.gov/analysis/</url>
+    </webLinks>
 </CustomObject>

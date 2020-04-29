@@ -211,6 +211,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Discount_Percent_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.MainCompetitors__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -334,6 +339,10 @@
     </layoutAssignments>
     <tabVisibilities>
         <tab>Energy_Audit__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MyData</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Work.com Only</userLicense>

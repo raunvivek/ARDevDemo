@@ -6,5 +6,6 @@
     <label>LightningBolt</label>
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
+    <tabs>MyData</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

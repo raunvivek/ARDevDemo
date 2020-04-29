@@ -211,6 +211,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Discount_Percent_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.MainCompetitors__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -343,6 +348,10 @@
     </objectPermissions>
     <tabVisibilities>
         <tab>Energy_Audit__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MyData</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Analytics Cloud Integration User</userLicense>

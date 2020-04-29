@@ -78,4 +78,16 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <webLinks>
+        <fullName>Google_Info</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Google Info</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>http://google.com?q={!Contact.Name}</url>
+    </webLinks>
 </CustomObject>
