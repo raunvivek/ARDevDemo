@@ -1,7 +1,7 @@
 public class EmailManager {
     // Public method
     public void sendMail(String address, String subject, String body) {
-        // Create an email message object
+        // Create an email message object..modified on 26 June 2020
         Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
         String[] toAddresses = new String[] {address};
         mail.setToAddresses(toAddresses);
@@ -12,7 +12,7 @@ public class EmailManager {
         Messaging.SendEmailResult[] results = Messaging.sendEmail(
                                  new Messaging.SingleEmailMessage[] { mail });
         
-        // Call a helper method to inspect the returned results
+        // Call a helper method to inspect the returned results..modified on 26 june 2020
         inspectResults(results);
     }
     
@@ -26,11 +26,11 @@ public class EmailManager {
         // so we should have only one result.
         for (Messaging.SendEmailResult res : results) {
             if (res.isSuccess()) {
-                System.debug('Email sent successfully');
+                System.debug('Email was sent successfully');
             }
             else {
                 sendResult = false;
-                System.debug('The following errors occurred: ' + res.getErrors());                 
+                System.debug('Failed...The following errors occurred: ' + res.getErrors());                 
             }
         }
         
