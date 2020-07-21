@@ -381,6 +381,10 @@
         <name>Role</name>
     </types>
     <types>
+        <members>CaseOrigin</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Account.Map_Location</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
