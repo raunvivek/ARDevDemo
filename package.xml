@@ -68,6 +68,7 @@
         <members>Account.Test_Account__c</members>
         <members>Account.Test_Picklist07feb__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Case.Case_Importance__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
